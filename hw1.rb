@@ -1,15 +1,22 @@
 def squared_sum(a, b)
   # Q1 CODE HERE
 
+  (a + b)**2
+
 end
 
 def sort_array_plus_one(a)
   # Q2 CODE HERE
 
+  copy = a.sort
+  copy.map { |i| i + 1 }
+
 end
 
 def combine_name(first_name, last_name)
   # Q3 CODE HERE
+
+  "%{a} %{b}" % {a: first_name, b: last_name}
 
 end
 
